@@ -1,0 +1,40 @@
+import heapq
+
+def best_first_search(graph, heuristic, start, goal):
+    visited = set()
+    priorityQ = []
+
+    heapq.heappush(priorityQ, (heuristic[start], start))
+
+    while priorityQ:
+        _, current = heapq.heappop(priorityQ)
+
+        if current == goal:
+            print(f"{goal}")
+            return
+        
+        if current not in visited:
+            print(f"{current} -> ", end='')
+            visited.add(current)
+
+            for neighbor, _ in graph[current]:
+                if neighbor not in visited:
+                    heapq.heappush(priorityQ, (heuristic[neighbor], neighbor))
+
+    print("Goal not reachable.")
+
+graph = {
+    'A': [('B', 2), ('C', 3)],
+    'B': [('D', 4), ('E', 1)],
+    'C': [('F', 5)],
+    'D': [('G', 3)],
+    'E': [('G', 2)],
+    'F': [('G', 1)],
+    'G': []
+}
+
+heuristic = {
+    'A': 6, 'B': 4, 'C': 3, 'D': 5, 'E': 2, 'F': 2, 'G': 0
+}
+
+best_first_search(graph, heuristic, 'A', 'G')
