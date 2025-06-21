@@ -1,0 +1,48 @@
+import heapq
+
+def a_star_search(graph, heuristic, start, goal):
+    visited = set()
+    priorityQ = []
+    
+    g = {start: 0}
+    f = {start: heuristic[start]}
+    
+    heapq.heappush(priorityQ, (f[start], start))
+
+    while priorityQ:
+        _, current = heapq.heappop(priorityQ)
+        
+        if current == goal:
+            print(f"{goal}")
+            return
+        
+        if current not in visited:
+            print(f"{current} -> ", end='')
+            visited.add(current)
+
+            for neighbor, weight in graph[current]:
+                if neighbor not in visited:
+                    temp_g = g[current] + weight
+                    
+                    if neighbor not in g or temp_g < g[neighbor]:
+                        g[neighbor] = temp_g
+                        f[neighbor] = temp_g + heuristic[neighbor]
+                        heapq.heappush(priorityQ, (f[neighbor], neighbor))
+
+    print("Goal not reachable.")
+
+graph = {
+    'A': [('B', 2), ('C', 3)],
+    'B': [('D', 4), ('E', 1)],
+    'C': [('F', 5)],
+    'D': [('G', 3)],
+    'E': [('G', 2)],
+    'F': [('G', 1)],
+    'G': []
+}
+
+heuristic = {
+    'A': 6, 'B': 4, 'C': 3, 'D': 5, 'E': 2, 'F': 2, 'G': 0
+}
+
+a_star_search(graph, heuristic, 'A', 'G')
