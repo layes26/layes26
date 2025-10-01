@@ -78,14 +78,6 @@ I'm a passionate **Computer Science student** at Daffodil International Universi
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=layes26&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF88&text_color=FFFFFF"/>
 </div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=layes26&theme=radical&hide_border=true&background=0D1117&stroke=00FF88&ring=00FF88&fire=00FF88&currStreakLabel=FFFFFF" alt="GitHub Streak"/>
-</div>
-
-<div align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=layes26&theme=radical&hide_border=true&bg_color=0D1117&color=00FF88&line=00FF88&point=FFFFFF" alt="GitHub Activity Graph"/>
-</div>
-
 ---
 
 ## 🏆 GitHub Trophies & Achievements
@@ -127,14 +119,6 @@ I'm a passionate **Computer Science student** at Daffodil International Universi
 
 ---
 
-## 📈 Visitor Counter
-
-<div align="center">
-  <img src="https://profile-counter.glitch.me/layes26/count.svg" alt="Visitor Count"/>
-</div>
-
----
-
 ## 💡 Quote of the Day
 
 <div align="center">
@@ -144,16 +128,18 @@ I'm a passionate **Computer Science student** at Daffodil International Universi
 ---
 
 ## 🎮 Fun Stuff
-
 <div align="center">
   <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="40px" height="40px"/>
   <p>Thanks for visiting! Let's connect and build something amazing together! 🚀</p>
   
-  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="300" alt="Coding GIF"/>
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" alt="Boy Coding GIF"/>
 </div>
 
 ---
-
 <div align="center">
-  <img src="https://raw.githubusercontent.com/trinib/trinib/main/.github/images/footer.png" alt="Footer"/>
+  <img src="https://raw.githubusercontent.com/saadeghi/saadeghi/master/dino.gif" width="150" alt="Dino"/>
+  <p> If you like what you see, give it a ⭐️ </p>
 </div>
+  
+
+
