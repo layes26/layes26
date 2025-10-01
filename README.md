@@ -100,25 +100,6 @@ I'm a passionate **Computer Science student** at Daffodil International Universi
 
 ---
 
-## 🚀 Featured Projects
-
-<div align="center">
-  <a href="https://github.com/layes26/portfolio-website">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=layes26&repo=portfolio-website&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF88&icon_color=00FF88&text_color=FFFFFF" alt="Portfolio Website"/>
-  </a>
-  <a href="https://github.com/layes26/doctor-appointment-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=layes26&repo=doctor-appointment-app&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF88&icon_color=00FF88&text_color=FFFFFF" alt="Doctor Appointment App"/>
-  </a>
-  <a href="https://github.com/layes26/ai-chatbot-assistant">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=layes26&repo=ai-chatbot-assistant&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF88&icon_color=00FF88&text_color=FFFFFF" alt="AI Chatbot"/>
-  </a>
-  <a href="https://github.com/layes26/library-management-system">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=layes26&repo=library-management-system&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF88&icon_color=00FF88&text_color=FFFFFF" alt="Library Management"/>
-  </a>
-</div>
-
----
-
 ## 📚 Publications & Research
 
 <div align="center">
